@@ -14,7 +14,8 @@
   "author": "Michelle Bu, Eric Zhang, NTT Communications",
   "license": "MIT",
   "scripts": {
-    "prepublish": "./node_modules/.bin/grunt"
+    "prepublish": "./node_modules/.bin/grunt",
+    "start": "dist/peerjs --port ${PORT:=9000}"
   },
   "devDependencies": {
     "expect.js": "*",
